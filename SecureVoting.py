@@ -64,15 +64,3 @@ print("Verified Vote:")
 nx.draw(verified_vote, with_labels=True, node_size=500, node_color='lightblue', font_size=12, font_weight='bold')
 plt.show()
 ```
-This code defines five functions:
-
-* `generate_p_adic_number`: generates a $p$-adic number from a hash value and a prime number $p$.
-* `generate_fractal_space`: generates a fractal space using a $p$-adic number and a prime number $p$.
-* `generate_graph`: generates a graph using a fractal space.
-* `encode_vote`: encodes a vote using a voter's identifier and vote choice.
-* `verify_vote`: verifies a vote using a voter's identifier and vote choice.
-
-The code then uses these functions to encode and verify a vote, and displays the resulting graphs.
-
-Note that this is a highly simplified example and is not intended for production use. In a real-world implementation, you would need to consider additional security measures, such as encryption and authentication.
-
